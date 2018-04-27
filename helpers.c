@@ -53,7 +53,9 @@ void error_handling(int e)
 		NULL, NULL,
 		"usage: push integer\n", "can't pint, stack empty\n",
 		"can't pop an empty stack\n", "can't swap, stack too short\n",
-		"can't add, stack too short\n"
+		"can't add, stack too short\n", "can't sub, stack too short\n",
+		"can't div, stack too short\n", "division by zero\n",
+		"can't mul, stack too short\n"
 	};
 	if (inventory)
 		n = inventory->lnum;
