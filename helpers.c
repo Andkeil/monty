@@ -55,7 +55,7 @@ void error_handling(int e)
 		"can't pop an empty stack\n", "can't swap, stack too short\n",
 		"can't add, stack too short\n", "can't sub, stack too short\n",
 		"can't div, stack too short\n", "division by zero\n",
-		"can't mul, stack too short\n"
+		"can't mul, stack too short\n", "can't mod, stack too short\n"
 	};
 	if (inventory)
 		n = inventory->lnum;
